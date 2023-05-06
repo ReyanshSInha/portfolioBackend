@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend of my portfolio ",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Reyansh Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "expressjs": "^1.0.1",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
