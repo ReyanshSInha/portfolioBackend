@@ -14,6 +14,10 @@ App.use(express.json())
 
 App.use('/api/v1/connectionRequests', connectionRequestRouter)
 
+App.get('/', (req, res) => {
+    res.send('server running send a post request')
+})
+
 const port = process.env.PORT || 4000;
 
 const start = async () => {
