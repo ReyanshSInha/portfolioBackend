@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash && \
     rm -f /etc/apt/sources.list.d/nodesource.list
 RUN npm install -g http-server
 
-RUN echo "secret is: $MONGO_URI"
+RUN echo "SECRET ENV MONGO_URI secret is: $MONGO_URI"
 RUN echo 'hello' > hello.html
 
 
