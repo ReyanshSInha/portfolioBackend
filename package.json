@@ -4,7 +4,7 @@
   "description": "This is the backend of my portfolio ",
   "main": "App.js",
   "scripts": {
-    "start": "nodemon"
+    "start": "node App.js"
   },
   "author": "Reyansh Sinha",
   "license": "ISC",
